@@ -1,6 +1,3 @@
-Okay, here is a README.md file for the minimal reproduction repository. It explains the problem, how to run the code in different ways, the expected outcomes (both error and success scenarios), and provides context on the potential cause related to Bun's macro processing.
-
-```markdown
 # Bun Build-Time Macro Issue Reproduction
 
 This repository demonstrates a potential issue in Bun (tested with v1.2.7, but may affect others) where build-time macros (`import ... with { type: "macro" }`) might not be correctly processed and replaced during `bun test` under specific class inheritance and instantiation patterns.
