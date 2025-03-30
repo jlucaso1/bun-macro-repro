@@ -150,4 +150,3 @@ This points towards a potential bug within Bun's macro handling, specifically co
 
 *   **Tested with Bun:** v1.2.7
 *   **OS:** Arch linux
-```
